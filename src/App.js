@@ -22,10 +22,11 @@ function App() {
   return (
     <div className="App">
       <textarea
-        className="border rounded-md p-5 m-5"
+        className="border rounded-md p-5 m-5 w-[90vw] h-[80vh]"
         id="text"
         cols="120"
         rows="40"
+        
         onChange={handleTextareaChange}
       ></textarea>
       <h1>{text}</h1>
